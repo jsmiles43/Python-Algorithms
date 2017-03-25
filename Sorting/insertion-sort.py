@@ -1,6 +1,3 @@
-
-
-
 def insertionSort(unsorted_list):
 	for i,v in enumerate(unsorted_list):
 		j = i
@@ -11,5 +8,3 @@ def insertionSort(unsorted_list):
 				unsorted_list[j] = temp
 			j -= 1
 	return unsorted_list
-
-print(insertionSort([7,3,21,4,9,1, 1001, 25, 43, 56, 78]))
